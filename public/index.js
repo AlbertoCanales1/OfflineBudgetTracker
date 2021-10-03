@@ -103,6 +103,8 @@ function sendTransaction(isAdding) {
     transaction.value *= -1;
   }
 
+
+  console.log(transactions);
   // add to beginning of current array of data
   transactions.unshift(transaction);
 
